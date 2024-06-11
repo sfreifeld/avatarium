@@ -50,6 +50,7 @@ import Avatar from 'avatarium';
 |  border | *boolean*   | false  |  if there's a border around the avatar |   
 |  borderShape |  *string* | square  | cirlce, rounded, square. Note: won't do anything if border is false  |  
 |  borderColor | *string*  | black  | color name, hex, or rgb. Note: won't do anything if border is false  |  
+|  backgroundColor | *string*  | black  | color name, hex, or rgb.  | 
 |  styleType | *string*  | none  | style1, style2, style3.  Predefined styles.  Other props won't affect the avatar if a style is chosen.  |  
 |  seed | *number*  | random  | You can add a number so that the avatar is deterministic.  If left blank then the avatar will be random.  |  
 
@@ -83,7 +84,6 @@ to discuss what you would like to change.
 
 ## Contributions
 https://www.flaticon.com/packs/smiley-and-people-10
-https://www.flaticon.com/free-icons/monster
 https://www.flaticon.com/packs/people-5
 https://www.flaticon.com/packs/science-fiction-avatars-2
 https://www.flaticon.com/packs/emoticon-29
