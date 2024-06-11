@@ -53,14 +53,13 @@ var getAvatarsByTheme = (theme) => {
 
 // Avatar.tsx
 var import_jsx_runtime = require("react/jsx-runtime");
-console.log("Loading Avatar component...");
 var Avatar = ({
   theme,
   size = "sm",
   border = false,
   borderShape = "square",
   borderColor = "black",
-  backgroundColor = "pink",
+  backgroundColor = "transparent",
   styleType,
   seed
 }) => {

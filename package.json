@@ -1,6 +1,6 @@
 {
   "name": "@sabfry/avatarium",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Meet Avatarium, your new favorite React package! This nifty tool is here to help you whip up awesome avatars on the fly. Our Avatar component makes it easy for you to give users an identity, without having to go through the trouble of profile picture uploads which need storage, monitoring, and constraints.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

@@ -1,6 +1,6 @@
 import React from 'react';
 import { getRandomAvatar } from './utils/randomizer';
-import { getAvatarsByTheme } from './avatarThemes'; // Import the function
+import { getAvatarsByTheme } from './avatarThemes';
 
 interface AvatarProps {
   theme: 'space' | 'blob' | 'emoji' | 'monster' | 'user' ;
@@ -9,11 +9,9 @@ interface AvatarProps {
   borderShape?: 'circle' | 'square' | 'rounded';
   borderColor?: string;
   backgroundColor?: string;
-  styleType?: 'style1' | 'style2' | 'style3';
-  seed?: number; // Optional seed for consistent random avatar
+  styleType?: 'style1' | 'style2' | 'style3'; // predefined styles
+  seed?: number; // seed for consistent random avatar
 }
-
-console.log("Loading Avatar component...");
 
 export const Avatar: React.FC<AvatarProps> = ({
   theme,
@@ -21,16 +19,16 @@ export const Avatar: React.FC<AvatarProps> = ({
   border = false,
   borderShape = 'square',
   borderColor = 'black',
-  backgroundColor = 'pink',
+  backgroundColor = 'transparent',
   styleType,
   seed
 }) => {
-  // Generate a random seed if none is provided
+  // Generates a random seed if none is provided
   const effectiveSeed = seed !== undefined ? seed : Math.random() * 10;
 
   const avatars = getAvatarsByTheme(theme); // Fetch avatars based on theme
   console.log(avatars)
-  const avatar = getRandomAvatar(avatars, effectiveSeed); // Pass effectiveSeed to getRandomAvatar
+  const avatar = getRandomAvatar(avatars, effectiveSeed);
   console.log(avatar)
   const borderRadius = borderShape === 'circle' ? '50%' : borderShape === 'rounded' ? '10px' : '0';
   const avatarSize = size === 'xs' ? '25px' : size === 'sm' ? '50px' : size === 'med' ? '100px' : size === 'lg' ? '150px' : '200px';

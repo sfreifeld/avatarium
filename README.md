@@ -53,6 +53,22 @@ import Avatar from 'avatarium';
 |  styleType | *string*  | none  | style1, style2, style3.  Predefined styles.  Other props won't affect the avatar if a style is chosen.  |  
 |  seed | *number*  | random  | You can add a number so that the avatar is deterministic.  If left blank then the avatar will be random.  |  
 
+## Style Examples
+
+### Style 1
+![Style 1](assets/style1.png)
+
+### Style 2
+![Style 2](assets/style2.png)
+
+### Style 3
+![Style 3](assets/style3.png)
+
+### Unstyled
+![Unstyled](assets/unstyled.png)
+
+## In Use
+![Example](assets/example.png)
 
 ## Contributing
 
