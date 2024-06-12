@@ -45,7 +45,7 @@ import Avatar from '@sabfry/avatarium';
 
 | Attribute  | Options  | Default  | Description  |   
 |---|---|---|---|
-|  theme | *string*   | none  | blob, emoji, monster, space, or user   |   
+|  theme | *string*   | none  | blob, emoji, monster, space, user, cutie   |   
 | size  | *string*  |  sm | xs, sm, med, lg, xl | 
 |  border | *boolean*   | false  |  if there's a border around the avatar |   
 |  borderShape |  *string* | square  | cirlce, rounded, square. Note: won't do anything if border is false  |  
