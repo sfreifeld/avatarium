@@ -1,4 +1,5 @@
 # Avatarium
+[Avatarium Website](https://avatarium.siter.io/)
 
 Meet Avatarium, your new favorite React package! This nifty tool is here to help you whip up awesome avatars on the fly. Our Avatar component makes it easy for you to give users an identity, without having to go through the trouble of profile picture uploads which need storage, monitoring, and constraints.  Use an avatar on:
 * User profile pictures
