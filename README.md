@@ -58,7 +58,7 @@ import Avatar from '@sabfry/avatarium';
 ## Style Examples
 
 ### Style 1
-![Style 1](assets/style1.png)
+![Style 1](https://raw.githubusercontent.com/sfreifeld/avatarium/main/assets/style1.png)
 
 ### Style 2
 ![Style 2](assets/style2.png)
