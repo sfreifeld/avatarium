@@ -3,7 +3,7 @@ import { getRandomAvatar } from './utils/randomizer';
 import { getAvatarsByTheme } from './avatarThemes';
 
 interface AvatarProps {
-  theme: 'space' | 'blob' | 'emoji' | 'monster' | 'user' ;
+  theme: 'space' | 'blob' | 'emoji' | 'monster' | 'user' | 'cutie' ;
   size?: 'xs' | 'sm' | 'med' | 'lg' | 'xl';
   border?: boolean;
   borderShape?: 'circle' | 'square' | 'rounded';

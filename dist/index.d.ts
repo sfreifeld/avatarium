@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface AvatarProps {
-    theme: 'space' | 'blob' | 'emoji' | 'monster' | 'user';
+    theme: 'space' | 'blob' | 'emoji' | 'monster' | 'user' | 'cutie';
     size?: 'xs' | 'sm' | 'med' | 'lg' | 'xl';
     border?: boolean;
     borderShape?: 'circle' | 'square' | 'rounded';
