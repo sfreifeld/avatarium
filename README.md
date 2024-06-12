@@ -17,14 +17,14 @@ Meet Avatarium, your new favorite React package! This nifty tool is here to help
 Install the component using [NPM:](https://www.npmjs.com/)
 
 ```bash
-npm install avatarium
+npm install @sabfry/avatarium
 ```
 
 ## Usage
 
 1. Import Avatar
 ```javascript
-import Avatar from 'avatarium';
+import Avatar from '@sabfry/avatarium';
 ```
 
 2. Use component in your project
