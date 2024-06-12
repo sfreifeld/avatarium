@@ -61,16 +61,16 @@ import Avatar from '@sabfry/avatarium';
 ![Style 1](https://raw.githubusercontent.com/sfreifeld/avatarium/main/assets/style1.png)
 
 ### Style 2
-![Style 2](assets/style2.png)
+![Style 2](https://raw.githubusercontent.com/sfreifeld/avatarium/main/assets/style2.png)
 
 ### Style 3
-![Style 3](assets/style3.png)
+![Style 3](https://raw.githubusercontent.com/sfreifeld/avatarium/main/assets/style3.png)
 
 ### Unstyled
-![Unstyled](assets/unstyled.png)
+![Unstyled](https://raw.githubusercontent.com/sfreifeld/avatarium/main/assets/unstyled.png)
 
 ## In Use
-![Example](assets/example.png)
+![Example](https://raw.githubusercontent.com/sfreifeld/avatarium/main/assets/example.png)
 
 ## Contributing
 
